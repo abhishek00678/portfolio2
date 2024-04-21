@@ -22,16 +22,16 @@ const skillsData2 = [
 ];
 
 const softSkills = [
-  { name: "hey", level: 85 },
-  { name: ".js", level: 75 },
-  { name: "ht", level: 90 },
+  { name: "Problem Solving", level: 85 },
+  { name: "Empthy", level: 75 },
+  { name: "Creativity", level: 90 },
   // Add more skills as needed
 ];
 
 const softSkills2 = [
-  { name: "ht", level: 85 },
-  { name: "jt", level: 75 },
-  { name: "jw", level: 90 },
+  { name: "Goal Orianted", level: 85 },
+  { name: "Positivity", level: 75 },
+  { name: "Collabration", level: 90 },
   // Add more skills as needed
 ];
 
