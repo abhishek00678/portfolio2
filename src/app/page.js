@@ -35,13 +35,22 @@ const softSkills2 = [
   // Add more skills as needed
 ];
 
+const livelink = [
+  "https://mail-box-client-delta.vercel.app/",
+  "https://crypto-app-one-mocha.vercel.app/coins",
+  "https://portfolio-abhi-b6ps.vercel.app/#skills",
+  "https://portfolio2-ten-xi.vercel.app/",
+];
+
+const repoLink = "https://github.com/abhishek00678?tab=repositories";
+
 const Home = () => {
   return (
     <main>
       <HeroSection />
       <AboutMe />
       <Experiance />
-      <Projects />
+      <Projects github={repoLink} livelinks={livelink} />
       <Leadership />
       <Skills
         skills={skillsData}

@@ -1,4 +1,4 @@
-import "../Progress.css"; // Import external CSS file
+import "../../style/Progress.css"; // Import external CSS file
 
 export default function ProgressBar({ value, max }) {
   return (

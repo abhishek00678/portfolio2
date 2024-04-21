@@ -1,9 +1,8 @@
 "use client";
-
-const Projects = () => {
+const Projects = ({ github, livelinks }) => {
   return (
     <div
-      className=" flex flex-wrap justify-center mt-6 bg-gray-100"
+      className="flex flex-wrap justify-center mt-6 bg-gray-100"
       id="projects"
     >
       {/* Heading */}
@@ -25,14 +24,15 @@ const Projects = () => {
                 completed.
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
+                {/* Access the corresponding live link based on the index */}
                 <a
-                  href="https://github.com/abhishek00678?tab=repositories"
+                  href={livelinks[index]}
                   className="btn btn-outline-secondary px-4 py-2 border border-gray-400 text-gray-600 rounded hover:bg-gray-100 transition duration-150"
                 >
-                  <i className="fab fa-github"></i> Clone Project
+                  <i className="fas fa-external-link-alt"></i> Live Link
                 </a>
                 <a
-                  href="https://github.com/abhishek00678?tab=repositories"
+                  href={github}
                   target="_blank"
                   className="btn btn-outline-secondary px-4 py-2 border border-gray-400 text-gray-600 rounded hover:bg-gray-100 transition duration-150"
                 >
@@ -52,11 +52,7 @@ const Projects = () => {
                 </span>
               </div>
               <p className="text-gray-600 mt-4">
-                <a
-                  href="https://github.com/abhishek00678?tab=repositories"
-                  target="_blank"
-                  className="hover:underline"
-                >
+                <a href={github} target="_blank" className="hover:underline">
                   <i className="fab fa-github"></i> Stars{" "}
                   <span className="bg-gray-800 text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
                     0

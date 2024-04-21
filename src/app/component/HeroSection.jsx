@@ -4,7 +4,7 @@ import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { SparklesCore } from "./ui/SparklesCore";
 import { TypewriterEffect } from "./ui/TypewriterEffect";
 
-import "./HeroSection.css"; // Assuming you store your CSS here
+import "../style/HeroSection.css"; // Assuming you store your CSS here
 
 const HeroSection = () => {
   const words = [
