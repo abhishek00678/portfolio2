@@ -19,7 +19,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className="relative animated-gradient bg-gray-900 text-white min-h-screen"
+      className="relative animated-gradient bg-gray-900 text-white min-h-screen w-full"
       id="home"
     >
       <SparklesCore

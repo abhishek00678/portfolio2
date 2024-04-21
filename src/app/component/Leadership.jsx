@@ -1,4 +1,3 @@
-"use client";
 import { ImagesSlider } from "./ui/ImagesSlider";
 
 const Leadership = () => {
@@ -6,15 +5,17 @@ const Leadership = () => {
 
   return (
     <>
-      <div className=" text-center">
-        <h1 className="text-6xl font-extralight  mb-4 mt-10">Experience</h1>
+      <div className="text-center">
+        <h1 className="text-4xl md:text-6xl font-extralight mb-4 mt-10">
+          Leadership
+        </h1>
       </div>
-      <div className="mt-10 flex flex-col md:flex-row p-10 ">
+      <div className="mt-10 flex flex-col md:flex-row p-4 md:p-10">
         {/* Content */}
         <div className="flex flex-wrap justify-center items-center mt-5">
           {/* Textual content */}
-          <div className="w-full md:w-1/2 px-16">
-            <p className="text-lg text-center font-extralight">
+          <div className="w-full md:w-1/2 px-4 md:px-16">
+            <p className="text-base md:text-lg text-center md:text-left font-extralight">
               As a React developer with leadership experience, I bring technical
               expertise, project management skills, and strong communication
               abilities to the table. I have a proven track record of building
@@ -36,11 +37,11 @@ const Leadership = () => {
           </div>
 
           {/* Carousel container */}
-          <div className="w-full md:w-1/2 px-10 mt-10 md:mt-0">
+          <div className="w-full md:w-1/2 px-4 md:px-10 mt-10 md:mt-0">
             <ImagesSlider
-              className="h-[30rem] rounded-lg"
+              className="h-[30rem] w-full rounded-lg"
               images={images}
-            ></ImagesSlider>{" "}
+            ></ImagesSlider>
           </div>
         </div>
       </div>
