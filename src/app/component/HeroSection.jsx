@@ -1,10 +1,11 @@
-import React from "react";
+"use client";
+import Link from "next/link";
+
 import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { SparklesCore } from "./ui/SparklesCore";
 import { TypewriterEffect } from "./ui/TypewriterEffect";
 
 import "./HeroSection.css"; // Assuming you store your CSS here
-import Link from "next/link";
 
 const HeroSection = () => {
   const words = [
@@ -32,36 +33,38 @@ const HeroSection = () => {
         particleColor="#FFFFFF"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center z-10">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-20">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-4 font-thin">
           ABHISHEK THAKUR
         </h1>
-        <TypewriterEffect words={words} className="mb-20" />
+        <div className="mt-0">
+          <TypewriterEffect words={words} className="mb-20 font-thin" />
+        </div>
 
         <div className="flex justify-center mb-4">
-          <a
-            href="https://github.com/yourusername"
+          <Link
+            href="https://github.com/abhishek00678/"
             className="text-white hover:text-gray-300 mr-4"
           >
             <FaGithub className="w-16 h-16" />
-          </a>
-          <a
-            href="https://facebook.com/yourusername"
+          </Link>
+          <Link
+            href="https://www.instagram.com/a_abhishek_thakur_004/"
             className="text-white hover:text-gray-300 mr-4"
           >
             <FaFacebook className="w-16 h-16" />
-          </a>
-          <a
-            href="https://linkedin.com/in/yourusername"
+          </Link>
+          <Link
+            href="www.linkedin.com/in/abhishek-thakur-434a3519a"
             className="text-white hover:text-gray-300 mr-4"
           >
             <FaLinkedin className="w-16 h-16" />
-          </a>
-          <a
-            href="https://instagram.com/yourusername"
+          </Link>
+          <Link
+            href="https://www.instagram.com/a_abhishek_thakur_004/"
             className="text-white hover:text-gray-300"
           >
             <FaInstagram className="w-16 h-16" />
-          </a>
+          </Link>
         </div>
         <Link href="#aboutme">
           <button className="bg-white text-gray-800 text-sm sm:text-base py-3 px-6 mt-4 sm:mt-8 rounded-lg">

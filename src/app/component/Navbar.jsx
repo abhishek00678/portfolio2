@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent text-black fixed top-0 left-0 w-full z-50">
-      <div className="container mx-auto px-6 ml-2 flex justify-between items-center  text-lg lg:text-xl">
+      <div className="container mx-auto px-6 ml-2 flex justify-between items-center  text-lg lg:text-xl  ">
         <Link href="#home">
           <Logo />
         </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute bg-transparent top-8 w-full left-0 z-20 lg:static lg:block mx-4`}
+          } absolute bg-transparent top-8 w-full left-0 z-20 lg:static lg:block mx-4 font-extralight`}
         >
           <ul className="lg:flex lg:items-center">
             <li className="p-2 lg:p-4">
