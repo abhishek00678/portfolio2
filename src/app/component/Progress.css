@@ -1,0 +1,18 @@
+.progress-bar {
+    height: 24px; /* Fixed height for the progress bar */
+    color: white; /* White text color */
+    text-align: center; /* Center-align text */
+    line-height: 24px; /* Vertically center the text */
+    background-color: #4169E1; /* Default background color */
+    border-radius: 10px;
+}
+  
+/* Animation for filling effect */
+@keyframes fillEffect {
+    from {
+      width: 0%;
+    }
+    to {
+      width: var(--targetWidth);
+    }
+}
