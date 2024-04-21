@@ -2,7 +2,7 @@ import ProgressBar from "./ui/ProgressBar";
 
 const Skills = ({ skills, skills2 }) => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8" id="skills">
       <h1 className="text-6xl font-extralight text-center  mb-10 mt-5">
         Skills
       </h1>

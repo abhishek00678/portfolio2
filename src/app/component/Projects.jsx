@@ -2,7 +2,10 @@
 
 const Projects = () => {
   return (
-    <div className=" flex flex-wrap justify-center mt-6 bg-gray-100">
+    <div
+      className=" flex flex-wrap justify-center mt-6 bg-gray-100"
+      id="projects"
+    >
       {/* Heading */}
       <div className="w-full text-center mt-48 md:mt-10">
         <h1 className="text-6xl md:text-6xl font-extralight mb-10">

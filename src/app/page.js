@@ -25,11 +25,11 @@ const Home = () => {
   return (
     <main>
       <HeroSection />
-      <AboutMe id="aboutme" />
-      <Experiance id="resume" />
-      <Projects id="projects" />
+      <AboutMe />
+      <Experiance />
+      <Projects />
       <Leadership />
-      <Skills id="skills" skills={skillsData} skills2={skillsData2} />
+      <Skills skills={skillsData} skills2={skillsData2} />
       <Footer />
     </main>
   );

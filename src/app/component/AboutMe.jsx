@@ -1,9 +1,11 @@
 import Image from "next/image"; // Using Next.js Image component for optimized images
 import { SparklesCore } from "./ui/SparklesCore";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
     <div
+      id="aboutme"
       className="flex flex-col md:flex-row justify-center items-center bg-gray-200 py-8"
       style={{ minHeight: "70vh" }}
     >
@@ -47,9 +49,11 @@ const AboutMe = () => {
           projects.
         </p>
         <div className="flex justify-center">
-          <button className="bg-gray-200 hover:bg-gray-600 text-black border-2 rounded-lg border-gray-500 font-bold py-4 px-8 flex items-center justify-center">
-            Resume
-          </button>
+          <Link href="https://drive.google.com/file/d/1197_J2JrBuS2yBi3tY6Vz4Rqj_WwWiOZ/view?usp=sharing">
+            <button className="bg-gray-200 hover:bg-gray-600 text-black border-2 rounded-lg border-gray-500 font-bold py-4 px-8 flex items-center justify-center">
+              Resume
+            </button>
+          </Link>
         </div>
       </div>
     </div>

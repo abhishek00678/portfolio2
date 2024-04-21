@@ -2,7 +2,9 @@ import React from "react";
 import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { SparklesCore } from "./ui/SparklesCore";
 import { TypewriterEffect } from "./ui/TypewriterEffect";
+
 import "./HeroSection.css"; // Assuming you store your CSS here
+import Link from "next/link";
 
 const HeroSection = () => {
   const words = [
@@ -16,7 +18,10 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="relative animated-gradient bg-gray-900 text-white min-h-screen">
+    <div
+      className="relative animated-gradient bg-gray-900 text-white min-h-screen"
+      id="home"
+    >
       <SparklesCore
         id="tsparticlesfullpage"
         background="transparent"
@@ -58,9 +63,11 @@ const HeroSection = () => {
             <FaInstagram className="w-16 h-16" />
           </a>
         </div>
-        <button className="bg-white text-gray-800 text-sm sm:text-base py-3 px-6 mt-4 sm:mt-8 rounded-lg">
-          More About Me
-        </button>
+        <Link href="#aboutme">
+          <button className="bg-white text-gray-800 text-sm sm:text-base py-3 px-6 mt-4 sm:mt-8 rounded-lg">
+            More About Me
+          </button>
+        </Link>
       </div>
     </div>
   );
