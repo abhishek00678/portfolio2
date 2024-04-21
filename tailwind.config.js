@@ -23,6 +23,8 @@ module.exports = {
       // Add other font families if needed
     },
     extend: {
+      backgroundColor: ["responsive", "hover", "focus", "active"],
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -41,6 +43,11 @@ module.exports = {
           },
         },
       },
+    },
+  },
+  variants: {
+    extend: {
+      translate: ["hover"],
     },
   },
   plugins: [],

@@ -19,7 +19,7 @@ const Experience = () => {
           <div className="text-center mt-4">
             <h2 className="text-xl md:text-2xl font-light">React Developer</h2>
             <p className="text-gray-600 text-lg md:text-xl mt-4">
-              Aug 2020 – May 2021
+              Jan 2020 – Dec 2021
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Experience = () => {
           <div className="text-center mt-4">
             <h2 className="text-xl md:text-2xl font-light">React Developer</h2>
             <p className="text-gray-600 text-lg md:text-xl mt-4">
-              Aug 2021 – May 2022
+              Jan 2021 – Dec 2022
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ const Experience = () => {
           <div className="text-center mt-4">
             <h2 className="text-xl md:text-2xl font-light">React Developer</h2>
             <p className="text-gray-600 text-lg md:text-xl mt-4">
-              Aug 2022 – May 2023
+              Jan 2022 – Dec 2023
             </p>
           </div>
         </div>

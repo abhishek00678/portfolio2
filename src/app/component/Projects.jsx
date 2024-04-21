@@ -15,7 +15,7 @@ const Projects = ({ github, livelinks }) => {
       {/* Array to create four cards */}
       {Array.from({ length: 4 }).map((_, index) => (
         <div key={index} className="p-10 md:w-1/2">
-          <div className="bg-white rounded-lg shadow-lg p-6 mb-5">
+          <div className="bg-white rounded-lg shadow-lg p-6 mb-5 transition-transform duration-150 transform hover:-translate-y-3">
             <div>
               <h5 className="text-lg font-bold">Task-Management</h5>
               <p className="text-gray-700 mt-2">
