@@ -15,7 +15,7 @@ const Projects = () => {
 
       {/* Array to create four cards */}
       {Array.from({ length: 4 }).map((_, index) => (
-        <div key={index} className="p-4 md:w-1/2">
+        <div key={index} className="p-10 md:w-1/2">
           <div className="bg-white rounded-lg shadow-lg p-6 mb-5">
             <div>
               <h5 className="text-lg font-bold">Task-Management</h5>
@@ -26,13 +26,13 @@ const Projects = () => {
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
                 <a
-                  href="https://github.com/Mohd-shahid-iqbal/Task-Management/archive/master.zip"
+                  href="https://github.com/abhishek00678?tab=repositories"
                   className="btn btn-outline-secondary px-4 py-2 border border-gray-400 text-gray-600 rounded hover:bg-gray-100 transition duration-150"
                 >
                   <i className="fab fa-github"></i> Clone Project
                 </a>
                 <a
-                  href="https://github.com/Mohd-shahid-iqbal/Task-Management"
+                  href="https://github.com/abhishek00678?tab=repositories"
                   target="_blank"
                   className="btn btn-outline-secondary px-4 py-2 border border-gray-400 text-gray-600 rounded hover:bg-gray-100 transition duration-150"
                 >
@@ -53,7 +53,7 @@ const Projects = () => {
               </div>
               <p className="text-gray-600 mt-4">
                 <a
-                  href="https://github.com/Mohd-shahid-iqbal/Task-Management/stargazers"
+                  href="https://github.com/abhishek00678?tab=repositories"
                   target="_blank"
                   className="hover:underline"
                 >

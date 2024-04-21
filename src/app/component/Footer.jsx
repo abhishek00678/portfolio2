@@ -1,4 +1,5 @@
 import { FaHeart } from "react-icons/fa"; // Import the heart icon from react-icons
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
@@ -17,10 +18,14 @@ const Footer = () => {
         </a>
         .
       </div>
-      <div>
-        with <FaHeart className="inline text-red-500" /> Abhishek Thakur using
-        Next.js
-        <FaHeart className="inline text-red-500" />
+      <div className="gap-20">
+        &lt;/&gt;
+        <span className="m-2">with</span>{" "}
+        <FaHeart className="inline text-black" />
+        <span className="bg-black text-white px-2 rounded-lg m-2">
+          Abhishek Thakur
+        </span>
+        <span>using Next.js</span>
       </div>
     </div>
   );

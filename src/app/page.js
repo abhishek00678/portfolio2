@@ -21,6 +21,20 @@ const skillsData2 = [
   // Add more skills as needed
 ];
 
+const softSkills = [
+  { name: "hey", level: 85 },
+  { name: ".js", level: 75 },
+  { name: "ht", level: 90 },
+  // Add more skills as needed
+];
+
+const softSkills2 = [
+  { name: "ht", level: 85 },
+  { name: "jt", level: 75 },
+  { name: "jw", level: 90 },
+  // Add more skills as needed
+];
+
 const Home = () => {
   return (
     <main>
@@ -29,7 +43,12 @@ const Home = () => {
       <Experiance />
       <Projects />
       <Leadership />
-      <Skills skills={skillsData} skills2={skillsData2} />
+      <Skills
+        skills={skillsData}
+        skills2={skillsData2}
+        soft={softSkills}
+        soft2={softSkills2}
+      />
       <Footer />
     </main>
   );
