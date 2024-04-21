@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-
 import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { SparklesCore } from "./ui/SparklesCore";
 import { TypewriterEffect } from "./ui/TypewriterEffect";

@@ -43,7 +43,7 @@ const AboutMe = () => {
         >
           My name is Abhishek Thakur . I’m a under-graduate of 2019 from Shri
           Vaishnav Institute at Indore with a degree in Bechelor of Electronics
-          & Communication. I'm most passionate about giving back to the
+          & Communication. I m most passionate about giving back to the
           community, and my goal is to pursue this passion within the field of
           software engineering. In my free time, I like working on open-source
           projects.
